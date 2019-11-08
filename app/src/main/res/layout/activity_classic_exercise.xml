@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="#ffffff"
+    tools:context="io.github.hashim.workoutTrainer.ClassicWorkout.ClassicExerciseActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/classicToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="#ff8c00"/>
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Make yourself Ready!"
+        android:textColor="#ff8c00"
+        android:layout_below="@+id/exerciseName"/>
+    <TextView
+        android:layout_below="@+id/classicToolbar"
+        android:id="@+id/exerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="1/13 JUMPPING JACKS"
+        android:textColor="#ff8c00" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/ready"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:progress="100"
+        android:progressDrawable="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/skip"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/progressBar"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/gifImageView"
+        android:layout_toRightOf="@+id/gifImageView"
+        android:background="@drawable/ic_skip_next_black_24dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvNum"
+        android:layout_toEndOf="@+id/tvNum"
+        android:layout_toRightOf="@+id/tvNum"
+        android:src="@drawable/ic_timer_black_18dp" />
+
+    <TextView
+        android:id="@+id/tvNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="15"
+        android:textAlignment="center"
+        android:textColor="#FF8C00"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="200dp"
+        android:layout_height="210dp"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/jumpingjacks" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.github.hashim.workoutTrainer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.LoginActivity">
+
+        </activity>
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassicWorkout.ClassicInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassicWorkout.ListOfExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassicWorkout.ClassicExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AbsWorkout.ListOfAbsExercisesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AbsWorkout.AbsExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AbsWorkout.AbsInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArmWorkout.ArmExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArmWorkout.ArmInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArmWorkout.ListOfArmExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ButtWorkout.ButtExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ButtWorkout.ButtInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ButtWorkout.ListOfButtExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LegWorkout.LegExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LegWorkout.LegInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LegWorkout.ListOfLegExerciseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AllInstructionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AboutUsActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2778443240863250~4466884855" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

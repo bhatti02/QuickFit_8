@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955899991116",
+    "firebase_url": "https://minutes-8.firebaseio.com",
+    "project_id": "minutes-8",
+    "storage_bucket": "minutes-8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955899991116:android:9dc38f5d52b884bd15d0e9",
+        "android_client_info": {
+          "package_name": "io.github.hashim.workoutTrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955899991116-mo1nkebdnkrqt0vtes98m1dcgeqe7njg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7RW_OGOhwkvhg2GhV-jL4CNvtUffYxyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955899991116-mo1nkebdnkrqt0vtes98m1dcgeqe7njg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
