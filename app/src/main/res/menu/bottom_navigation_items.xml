@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:icon="@drawable/homepage"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/bottom_nav_Instructions"
+        android:icon="@drawable/instructions"
+        android:title="Instructions"/>
+
+    <item
+        android:id="@+id/bottom_nav_BMI"
+        android:icon="@drawable/weightscale"
+        android:title="BMI"/>
+
+    <item
+        android:id="@+id/bottom_nav_aboutus"
+        android:icon="@drawable/aboutus"
+        android:title="About Us"/>
+
+</menu>
