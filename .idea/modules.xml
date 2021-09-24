@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FYP.iml" filepath="$PROJECT_DIR$/FYP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fyp8min.iml" filepath="$PROJECT_DIR$/.idea/modules/fyp8min.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fyp8min.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fyp8min.app.iml" />
     </modules>
   </component>
 </project>

@@ -7,12 +7,13 @@ import android.widget.TextView;
 
 public class BMIActivity extends AppCompatActivity {
 
-    TextView tv;
+    TextView tV;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi);
-        tv = findViewById(R.id.tv_BMIActivity);
+
+        tV = findViewById(R.id.tv_BMIActivity);
     }
 }
