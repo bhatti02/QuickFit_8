@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#000000"
     tools:context="io.github.hashim.workoutTrainer.LegWorkout.LegInstructionsActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/legInstructionToolbar"
@@ -21,15 +21,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="Leg Workout"
-        android:textColor="#ff8c00"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
         android:textSize="22sp"
         android:textStyle="bold" />
     <ScrollView
         android:layout_below="@+id/heading"
         android:layout_width="match_parent"
+        android:background="#000000"
         android:layout_height="match_parent">
         <RelativeLayout
-            android:background="#ffffff"
+            android:background="#000000"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
@@ -57,6 +59,8 @@
                         android:layout_height="wrap_content"
                         android:text="1/11 : Calf Raises "
                         android:textStyle="bold"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
 
@@ -71,6 +75,9 @@
                         android:text="Stand stright with feet together. Lift the heel , and stand on your tip toe. Then drop heels down. Repeat lifting the heels up and down for 10-15 times as a set."
                         android:layout_margin="12dp"
                         android:layout_below="@+id/img1"
+
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
                 </RelativeLayout>
@@ -94,6 +101,9 @@
                     android:layout_height="match_parent">
 
                     <TextView
+
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title2"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -111,6 +121,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/lunge"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Stand stright up. Then step back with your left leg to the right, and bend your knees at the same time. Go back to the start position and switch to the other side."
                         android:layout_below="@+id/img2"
@@ -138,6 +150,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title3"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -155,6 +169,9 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/single_leg_calf_raises"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
+                        android:layout_margin="12dp"
                         android:text="Stand with arms against a wall. Put your right foot on your left ankle, then lift your left heel up and down."
                         android:layout_below="@+id/img3"
                         android:layout_width="match_parent"
@@ -181,6 +198,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title4"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -198,6 +217,10 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/side_lunges"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
+
+                        android:layout_margin="12dp"
                         android:text="Stand stright with your feet together. Move your right leg to the side, then lower your body while keeping your left leg stright. GO back to the start position and switch to the other side."
                         android:layout_below="@+id/img4"
                         android:layout_width="match_parent"
@@ -223,6 +246,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title5"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -240,6 +265,9 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/lunge_knee_hops"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
+                        android:layout_margin="12dp"
                         android:text="Stand stright up. Then step your left leg back and lower your body.When you come up, raise your left knee as high as you can. Go back to the start position, and repeat the exercise."
                         android:layout_below="@+id/img5"
                         android:layout_width="match_parent"
@@ -265,6 +293,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title6"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -282,6 +312,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/single_leg_calf_raises"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Stand with arms against a wall. Put your left foot on your right ankle, then lift your right heel up and down."
                         android:layout_below="@+id/img6"
@@ -308,6 +340,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title7"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -325,6 +359,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/bottom_leg_lift"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Lie on your left side with your head resting on your left hand. Then put your right foot forward on the floor. Lift your left leg up and down. "
                         android:layout_below="@+id/img7"
@@ -351,6 +387,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title8"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -368,6 +406,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/bottom_leg_lift"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Lie on your right side with your head resting on your right hand. Then put your left foot forward on the floor. Lift your right leg up and down. "
                         android:layout_below="@+id/img8"
@@ -394,6 +434,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title9"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -411,6 +453,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/lunge_knee_hops"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Stand stright up. Then step your right leg back and lower your body. When you come up, raise your right knee as high as you can. Go back to the start position, and repeat the exercise."
                         android:layout_below="@+id/img9"
@@ -437,6 +481,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title10"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -454,6 +500,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/side_leg_circles"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Stand stright up. Then step your left leg back and lower your body. When you come up, raise your left knee as high as you can. Go back to the start position, and repeat the exercise."
                         android:layout_below="@+id/img10"
@@ -481,6 +529,8 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:id="@+id/title11"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
@@ -498,6 +548,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/side_leg_circles"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Lie on your left side with your head resting on your left hand. Then lift your right leg and rotate your foot in circles."
                         android:layout_below="@+id/img11"

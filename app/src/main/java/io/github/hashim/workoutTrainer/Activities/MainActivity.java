@@ -3,12 +3,13 @@ package io.github.hashim.workoutTrainer.Activities;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -18,11 +19,11 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.squareup.picasso.Picasso;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+import io.github.hashim.workoutTrainer.AbsWorkout.AbsInstructionsActivity;
+import io.github.hashim.workoutTrainer.AbsWorkout.ListOfAbsExercisesActivity;
 import io.github.hashim.workoutTrainer.ArmWorkout.ArmInstructionsActivity;
 import io.github.hashim.workoutTrainer.ArmWorkout.ListOfArmExerciseActivity;
-import io.github.hashim.workoutTrainer.BMIActivity;
+import io.github.hashim.workoutTrainer.BMI.BMI_activity;
 import io.github.hashim.workoutTrainer.ButtWorkout.ButtInstructionsActivity;
 import io.github.hashim.workoutTrainer.ButtWorkout.ListOfButtExerciseActivity;
 import io.github.hashim.workoutTrainer.ClassicWorkout.ClassicInstructionsActivity;
@@ -30,20 +31,14 @@ import io.github.hashim.workoutTrainer.ClassicWorkout.ListOfExerciseActivity;
 import io.github.hashim.workoutTrainer.LegWorkout.LegInstructionsActivity;
 import io.github.hashim.workoutTrainer.LegWorkout.ListOfLegExerciseActivity;
 import io.github.hashim.workoutTrainer.R;
-import io.github.hashim.workoutTrainer.AbsWorkout.AbsInstructionsActivity;
-import io.github.hashim.workoutTrainer.AbsWorkout.ListOfAbsExercisesActivity;
 
 public class MainActivity extends AppCompatActivity {
-
-    BottomNavigationView bottomNavigationView;
-
     private InterstitialAd mInterstitialAd;
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bottomNavigationView = findViewById(R.id.bottom_navigation);
 
         MobileAds.initialize(this, "ca-app-pub-7407537444619255~6230610124");
         mInterstitialAd = new InterstitialAd(this);
@@ -54,9 +49,6 @@ public class MainActivity extends AppCompatActivity {
         AdView mAdView = findViewById(R.id.adMainView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
-
-
 
         ImageView imageView = findViewById(R.id.imageView);
         Picasso.get().load(R.drawable.workout).into(imageView);
@@ -75,12 +67,34 @@ public class MainActivity extends AppCompatActivity {
         ImageView LegImage =findViewById(R.id.legImg);
         Picasso.get().load(R.drawable.leg_workout).into(LegImage);
 
-       /* androidx.appcompat.widget.Toolbar toolbar =findViewById(R.id.toolbar);
+        androidx.appcompat.widget.Toolbar toolbar =findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setTitle("8 MINUTES");
 
-        toolbar.setTitleTextColor(Color.parseColor("#ffffff")); */
+        toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
+
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_BMI:
+                        Intent intent3 = new Intent(MainActivity.this, BMI_activity.class);
+                        startActivity(intent3);
+                        break;
+                    case R.id.action_instructions:
+                        Intent intent = new Intent(MainActivity.this,AllInstructionsActivity.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.action_about_us:
+                        Intent intent2 = new Intent(MainActivity.this,AboutUsActivity.class);
+                        startActivity(intent2);
+                        break;
+                }
+                return true;
+            }
+        });
 
 
         Button btnClassicInstructions =findViewById(R.id.btnInstructions);
@@ -236,63 +250,34 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                switch (menuItem.getItemId())
-                {
-                    case R.id.bottom_nav_home:
-                        Intent intent = new Intent(MainActivity.this, MainActivity.class);
-                        startActivity(intent);
-                        break;
-
-                    case R.id.bottom_nav_Instructions:
-                        intent = new Intent(MainActivity.this, AllInstructionsActivity.class);
-                        startActivity(intent);
-                        break;
-
-                    case R.id.bottom_nav_BMI:
-                        intent = new Intent(MainActivity.this, BMIActivity.class);
-                        startActivity(intent);
-                        break;
-
-                    case R.id.bottom_nav_aboutus:
-                        intent = new Intent(MainActivity.this, AboutUsActivity.class);
-                        startActivity(intent);
-                        break;
-                }
-                return true;
-            }
-        });
     }
 
 
 
-/*
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.options_menus,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.instructions:
-                Intent intent = new Intent(MainActivity.this, AllInstructionsActivity.class);
-                startActivity(intent);
-                return true;
-            case R.id.about:
-                Intent intent1 = new Intent(MainActivity.this
-                        , AboutUsActivity.class);
-                startActivity(intent1);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
-    */
+//
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.options_menus,menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.instructions:
+//                Intent intent = new Intent(MainActivity.this
+//                        , AllInstructionsActivity.class);
+//                startActivity(intent);
+//                return true;
+//            case R.id.about:
+//                Intent intent1 = new Intent(MainActivity.this
+//                        , AboutUsActivity.class);
+//                startActivity(intent1);
+//                return true;
+//            default:
+//                return super.onOptionsItemSelected(item);
+//        }
+//    }
 
 }

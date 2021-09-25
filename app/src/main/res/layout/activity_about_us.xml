@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context="io.github.hashim.workoutTrainer.Activities.AboutUsActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/aboutUsToolbar"
@@ -19,16 +20,15 @@
         android:layout_height="180dp"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logoo" />
+        android:src="@drawable/logooooooooo" />
 
-    <TextView
+    <ImageView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/alegreya_sc_black"
-        android:text="8 MINUTES"
+        android:background="@drawable/mint_white_trans"
         android:textColor="#ff8c00"
         android:textSize="30sp" />
 
@@ -37,16 +37,62 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/alegreya_sc_black"
-        android:text="Version : 1.0.0"
-        android:textColor="#ff8c00"
+        android:fontFamily="@font/poppins"
+        android:text="Version : 2.0.0"
+        android:textColor="@color/white"
         android:id="@+id/textView2" />
 
     <TextView
+        android:id="@+id/tv_develop"
         android:layout_marginTop="12dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:text="Developed by : Muhammad Hashim" />
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:text="Developed by :" />
+
+    <TextView
+        android:id="@+id/tvhashim"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_develop"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:text="Muhammad Hashim" />
+
+    <TextView
+        android:id="@+id/tvtaimoor"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvhashim"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:text="Taimoor Bhatti" />
+
+    <TextView
+        android:id="@+id/tvaqsa"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtaimoor"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:text="Aqsa Imtiaz" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/orange"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_nav_menu" />
+
 </RelativeLayout>

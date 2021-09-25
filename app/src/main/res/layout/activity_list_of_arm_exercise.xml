@@ -9,8 +9,10 @@
 
     <RelativeLayout
         android:id="@+id/hash"
+        android:background="#000000"
         android:layout_above="@+id/adArmView"
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content">
         <ScrollView
             android:layout_width="match_parent"
@@ -26,6 +28,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
+                    android:background="#000000"
                     android:layout_height="wrap_content">
 
                     <TextView
@@ -35,7 +38,8 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
                         android:text="EXERCISES"
-                        android:textColor="@android:color/background_dark"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins"
                         android:textSize="22sp"
                         android:textStyle="bold" />
 
@@ -52,7 +56,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="JUMPING SQUATS"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -72,7 +77,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -96,7 +102,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="REVERSE CRUNCHES"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -116,7 +123,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -140,7 +148,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="STRAIGHT-ARM PLANK"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -160,7 +169,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -184,7 +194,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="RUSSIAN TWIST"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -204,7 +215,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -228,7 +240,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="BIRD DOG"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -248,7 +261,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -273,7 +287,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="BURPEES"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -293,7 +308,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -317,7 +333,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="LONG ARM CRUNCHES"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -337,7 +354,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -361,7 +379,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="ONE LEG BRIDGE"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -381,7 +400,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -405,7 +425,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="ONE LEG PUSH-UPS"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -425,7 +446,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -450,7 +472,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="PLANK"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -470,7 +493,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -495,7 +519,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="CROSE ARM CRUNCHES"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -515,7 +540,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -539,7 +565,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="MOUNTAIN CLIMBER"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -559,7 +586,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -583,7 +611,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="BRIDGE"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -603,7 +632,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
                         <ImageView
                             android:layout_width="match_parent"
@@ -628,7 +658,8 @@
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="10dp"
                             android:text="BICYCLE CRUNCHES"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -648,7 +679,8 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:text="30 s"
-                            android:textColor="@android:color/background_dark"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins"
                             android:textSize="14sp" />
                     </RelativeLayout>
 
@@ -657,7 +689,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_below="@+id/RL14"
-                        android:layout_margin="0dp"
+                        android:layout_marginBottom="30dp"
                         android:background="#FF8C00"
                         android:elevation="13dp"
                         android:padding="0dp"

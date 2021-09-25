@@ -1,9 +1,10 @@
 package io.github.hashim.workoutTrainer.ClassicWorkout;
 
 import android.graphics.Color;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import io.github.hashim.workoutTrainer.R;
 

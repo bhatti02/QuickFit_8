@@ -2,13 +2,19 @@ package io.github.hashim.workoutTrainer.Activities;
 
 import android.content.Intent;
 import android.graphics.Color;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 import io.github.hashim.workoutTrainer.AbsWorkout.AbsInstructionsActivity;
 import io.github.hashim.workoutTrainer.ArmWorkout.ArmInstructionsActivity;
+import io.github.hashim.workoutTrainer.BMI.BMI_activity;
 import io.github.hashim.workoutTrainer.ButtWorkout.ButtInstructionsActivity;
 import io.github.hashim.workoutTrainer.ClassicWorkout.ClassicInstructionsActivity;
 import io.github.hashim.workoutTrainer.LegWorkout.LegInstructionsActivity;
@@ -29,6 +35,29 @@ public class AllInstructionsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
             finish();
+            }
+        });
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setSelectedItemId(R.id.action_instructions);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_BMI:
+                        Intent intent3 = new Intent(AllInstructionsActivity.this, BMI_activity.class);
+                        startActivity(intent3);
+                        break;
+                    case R.id.action_home:
+                        Intent intent = new Intent(AllInstructionsActivity.this,MainActivity.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.action_about_us:
+                        Intent intent2 = new Intent(AllInstructionsActivity.this,AboutUsActivity.class);
+                        startActivity(intent2);
+                        break;
+                }
+                return true;
             }
         });
 

@@ -1,9 +1,5 @@
 package io.github.hashim.workoutTrainer.Activities;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import io.github.hashim.workoutTrainer.R;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +8,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.firebase.auth.FirebaseAuth;
@@ -19,6 +18,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 import java.util.Arrays;
 import java.util.List;
+
+import io.github.hashim.workoutTrainer.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -30,7 +31,6 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
 
         Button button = findViewById(R.id.btn_login_with_google);
         button.setOnClickListener(new View.OnClickListener() {
@@ -46,6 +46,15 @@ public class LoginActivity extends AppCompatActivity {
                                 .setAvailableProviders(providers)
                                 .build(),
                         RC_SIGN_IN);
+            }
+        });
+        Button continueWithoutLogin = findViewById(R.id.btn_continue);
+        continueWithoutLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }
