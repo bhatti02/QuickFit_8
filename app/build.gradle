@@ -4,7 +4,7 @@ apply plugin: 'io.fabric'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "io.github.hashim.workoutTrainer"
+        applicationId "io.github.taimoor.workoutTrainer"
         minSdkVersion 22
         targetSdkVersion 28
         versionCode 1
@@ -27,7 +27,6 @@ android {
 
 dependencies {
     //noinspection GradleCompatible
-    implementation 'com.google.android.gms:play-services-ads:18.1.1'
     implementation 'com.squareup.picasso:picasso:2.71828'
     //noinspection GradleCompatible
     implementation 'androidx.cardview:cardview:1.0.0'

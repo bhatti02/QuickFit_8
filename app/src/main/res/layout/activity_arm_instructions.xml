@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#000000"
     android:layout_height="match_parent"
-    tools:context="io.github.hashim.workoutTrainer.ArmWorkout.ArmInstructionsActivity">
+    tools:context="io.github.taimoor.workoutTrainer.ArmWorkout.ArmInstructionsActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/armInstructionToolbar"
         android:layout_width="match_parent"
@@ -20,7 +21,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="Arm Workout"
-        android:textColor="#ff8c00"
+        android:fontFamily="@font/poppins"
+        android:textColor="#ffffff"
         android:textSize="22sp"
         android:textStyle="bold" />
     <ScrollView
@@ -28,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
-            android:background="#ffffff"
+            android:background="#000000"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
@@ -54,6 +56,9 @@
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="1/13 : Side Arm Raise "
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
@@ -69,6 +74,8 @@
                     <TextView
                         android:layout_margin="12dp"
                         android:layout_below="@+id/img1"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Start with your feet and your shoulder width apart. Raise your arms to sides at shoulders. Repeat this exercise. "/>
@@ -98,6 +105,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="2/13 : Push-Ups "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -112,6 +121,8 @@
                     <TextView
                         android:layout_margin="12dp"
                         android:layout_below="@+id/img2"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Lay prone on the ground with arms supporting your body.Keep your body stright while raising and lowering your body with your arms. This exercise works the chest, sholders, triceps, back and leg. "
@@ -140,6 +151,8 @@
                     <TextView
                         android:id="@+id/title3"
                         android:textSize="15sp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="3/13 : Triceps Dips "
@@ -156,6 +169,8 @@
                         android:src="@drawable/tricepsdips"/>
                     <TextView
                         android:layout_below="@+id/img3"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="For the start position, sit on the chair. Then move your hip off the chair with your hands holding the edge of the chair. Slowly bend and stretch your arms to make your body go up and down. This is a great exercise for the triceps."
                         android:layout_width="match_parent"
@@ -185,6 +200,8 @@
                         android:id="@+id/title4"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_height="wrap_content"
                         android:text="4/13 : Diamond Push-ups "
                         android:textStyle="bold"
@@ -199,6 +216,8 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/diamond_pushups"/>
                     <TextView
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_margin="12dp"
                         android:text="Start on all fours with your knees under your butt and your hands under your shoulders. Make a diamond shape with your forefingers and thumbs together directly under your face, then push your body up and down. Remember to keep your body stright."
                         android:layout_below="@+id/img4"
@@ -228,6 +247,8 @@
                         android:id="@+id/title5"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_height="wrap_content"
                         android:text="5/13 : Up and Down Plank "
                         android:textStyle="bold"
@@ -243,6 +264,8 @@
                         android:src="@drawable/up_down_plank"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Start in the stright arm plank position. Then bend your right arm and place your forearm on the ground with your elbow under your shoulder, then bend your left arm and come down into the plank position. Then reverse and come back to the start position. Repeat the exercise. Keep your body stright during the exercise. Inhale when you come down and exhale when you come up. "
                         android:layout_below="@+id/img5"
                         android:layout_width="match_parent"
@@ -270,6 +293,8 @@
                     <TextView
                         android:id="@+id/title6"
                         android:textSize="15sp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6/13 : Arm Circles "
@@ -286,6 +311,8 @@
                         android:src="@drawable/arm_circles"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Stand on the floor with your arms extended stright out to the sides at shoulder height. Move your arms forward in circles, and then move backwards."
                         android:layout_below="@+id/img6"
                         android:layout_width="match_parent"
@@ -313,6 +340,8 @@
                     <TextView
                         android:id="@+id/title7"
                         android:textSize="15sp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="7/13 : Push up and rotaion "
@@ -329,6 +358,8 @@
                         android:src="@drawable/pushuprotaion"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Start in the push-up position. THen go down for a push-up and as you come up, rotate your body and extend your right arm upwards. Repeat the exercise with the other arm. It's a great exercise for the chest , shoulders, arms and core."
                         android:layout_below="@+id/img7"
                         android:layout_width="match_parent"
@@ -357,6 +388,8 @@
                         android:id="@+id/title8"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_height="wrap_content"
                         android:text="8/13 : Gravity Triceps Dips "
                         android:textStyle="bold"
@@ -372,6 +405,8 @@
                         android:src="@drawable/gravity_trisp_dips"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Stand between two chairs or poles . Grip the your hands with the stand and lift your body by folding your legs up. Makes Dips up , remember to keep your body stright."
                         android:layout_below="@+id/img8"
                         android:layout_width="match_parent"
@@ -402,6 +437,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="9/13 : One Leg Push-Ups Right "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -417,6 +454,8 @@
                         android:layout_margin="12dp"
                         android:text="Start in the classic push-up position but lift right leg up. Then do push-ups with one leg. THis works on your lower abdominal muscles."
                         android:layout_below="@+id/img9"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
@@ -445,6 +484,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="10/13 : One Leg Push-Up Left"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -460,6 +501,8 @@
                       android:layout_margin="12dp"
                         android:text="Start in the classic push-up position but lift left leg up. Then do push-ups with one leg. THis works on your lower abdominal muscles."
                         android:layout_below="@+id/img10"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
@@ -488,6 +531,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="11/13 : Plank Taps "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -503,6 +548,8 @@
                         android:text="Start in the Plank position, do the reps as shown above.  "
                         android:layout_margin="12dp"
                         android:layout_below="@+id/img11"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
@@ -530,6 +577,8 @@
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="12/13 : Triceps Stretch Left "
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
@@ -544,6 +593,8 @@
                         android:src="@drawable/triceps_stretch"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Put your left hand on your back, use your right hand to grab your left elbow and gently pull it. Hold this position for a few seconds."
                         android:layout_below="@+id/img12"
                         android:layout_width="match_parent"
@@ -575,6 +626,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="13/13 : Triceps Stretch Right "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -588,6 +641,8 @@
                         android:src="@drawable/triceps_stretch"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Put your right hand on your back, use your left hand to grab your right elbow and gently pull it. Hold this position for a few seconds."
                         android:layout_below="@+id/img13"
                         android:layout_width="match_parent"

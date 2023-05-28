@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMI.BMIMainActivity"
+    android:background="#000000"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/btn_BMI"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_orange_light"
+        android:drawableLeft="@drawable/bmi"
+        android:paddingLeft="15dp"
+        android:text="Body Mass Index"
+        android:textColor="@android:color/background_light"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp" />
+
+    <Button
+        android:id="@+id/btn_waist"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/btn_BMI"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_dark"
+        android:drawableLeft="@drawable/waist"
+        android:paddingLeft="15dp"
+        android:text="Waist to Height Ratio"
+        android:textColor="@android:color/background_light"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"/>
+
+    <Button
+        android:id="@+id/btn_BodyFat"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/btn_waist"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_orange_dark"
+        android:drawableLeft="@drawable/percentage"
+        android:paddingLeft="15dp"
+        android:text="Body Fat Percentage"
+        android:textColor="@android:color/background_light"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"/>
+
+    <Button
+        android:id="@+id/btn_MetabolicRate"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/btn_BodyFat"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_red_light"
+        android:drawableLeft="@drawable/bmi"
+        android:paddingLeft="15dp"
+        android:text="Basal Metabolic Ratio"
+        android:textColor="@android:color/background_light"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="15dp"
+        />
+
+
+</RelativeLayout>

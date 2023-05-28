@@ -5,7 +5,7 @@
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.github.hashim.workoutTrainer.ButtWorkout.ButtExerciseActivity">
+    tools:context="io.github.taimoor.workoutTrainer.ButtWorkout.ButtExerciseActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/buttToolbar"
         android:layout_width="match_parent"

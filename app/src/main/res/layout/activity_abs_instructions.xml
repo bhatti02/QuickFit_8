@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/backgroundBlack"
     android:layout_height="match_parent"
-    tools:context="io.github.hashim.workoutTrainer.AbsWorkout.AbsInstructionsActivity">
+    tools:context="io.github.taimoor.workoutTrainer.AbsWorkout.AbsInstructionsActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/absInstructionToolbar"
         android:layout_width="match_parent"
@@ -20,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="Abs Workout"
-        android:textColor="#ff8c00"
+        android:textColor="#ffffff"
         android:textSize="22sp"
         android:textStyle="bold" />
     <ScrollView
@@ -28,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
-            android:background="#ffffff"
+            android:background="#000000"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
@@ -54,6 +55,8 @@
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="1/14 : Jumming Squats "
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
@@ -68,6 +71,8 @@
                         android:src="@drawable/jumping_squats"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Start in the sqaut position, then jump up using your abdominal muscles for strength. This exercise works your abdomen."
                         android:layout_below="@+id/img1"
                         android:layout_width="match_parent"
@@ -97,6 +102,8 @@
                         android:id="@+id/title2"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_height="wrap_content"
                         android:text="2/14 : Reverse Crunches "
                         android:textStyle="bold"
@@ -112,6 +119,8 @@
                         android:src="@drawable/reverse_crunches"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Lie on the back with your knees up at a 90 degree angle and hands behind your head. Lift your upper body and thighs, and then stretch out. Repeat this exercise."
                         android:layout_below="@+id/img2"
                         android:layout_width="match_parent"
@@ -142,6 +151,8 @@
                         android:id="@+id/title3"
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_height="wrap_content"
                         android:text="3/14 : Stright Arm Plank "
                         android:textStyle="bold"
@@ -157,6 +168,8 @@
                         android:src="@drawable/strightarmplank"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Start in the push up position, but keep your arms stright. This exercise strengthens your abdomen and back muscles."
                         android:layout_below="@+id/img3"
                         android:layout_width="match_parent"
@@ -185,6 +198,8 @@
                     <TextView
                         android:id="@+id/title4"
                         android:textSize="15sp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="4/14 : Russian Twist "
@@ -201,6 +216,8 @@
                         android:src="@drawable/russiantwist"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Sit on the floor with your knees bent, feet lifted a little bit and back tilted backwards, Then hold your hands together and twist from side to side ."
                         android:layout_below="@+id/img4"
                         android:layout_width="match_parent"
@@ -232,6 +249,8 @@
                         android:layout_height="wrap_content"
                         android:text="5/14 : Bird Dog "
                         android:textStyle="bold"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
 
@@ -244,6 +263,8 @@
                         android:src="@drawable/bird_dog"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Start with your knees under your butt and hands under your shoulders. Then stretch your right leg and left arm at same time. Hold for five seconds, then go back and repeat with the other side."
                         android:layout_below="@+id/img5"
                         android:layout_width="match_parent"
@@ -271,6 +292,8 @@
                     <TextView
                         android:id="@+id/title6"
                         android:textSize="15sp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6/14 : burpees "
@@ -287,6 +310,8 @@
                         android:src="@drawable/burpees"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Stand with your feet shoulder width apart, then put your hands on the ground and kick your feet backward. Do quick push-up and jump up."
                         android:layout_below="@+id/img6"
                         android:layout_width="match_parent"
@@ -314,6 +339,8 @@
                     <TextView
                         android:id="@+id/title7"
                         android:textSize="15sp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="7/14 : Long Arm Crunches "
@@ -330,6 +357,8 @@
                         android:src="@drawable/long_arm_crunches"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Lie on your back with knees bent and feet flat on the floor. Put your arms stright over the top of your head. Lift your upper body off the floor, then slowly go back to the start position. The exercise increases abdominal endurance."
                         android:layout_below="@+id/img7"
                         android:layout_width="match_parent"
@@ -360,6 +389,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="8/14 : One Leg Bridge "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -375,6 +406,8 @@
                         android:layout_margin="12dp"
                         android:text="Lie on the floor , bend your legs . Then lift your hips off the floor. This exercise works on your abdomen and hips."
                         android:layout_below="@+id/img8"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
@@ -402,6 +435,8 @@
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="9/14 : One Leg Push up's "
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
@@ -418,6 +453,8 @@
                         android:layout_margin="12dp"
                         android:text="Start in the classic push-up position but lift one leg up. Then do a few push-ups and then switch the leg. this works on your lower abdominal muscles."
                         android:layout_below="@+id/img9"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
@@ -446,6 +483,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="10/14 : Plank "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -459,6 +498,8 @@
                         android:src="@drawable/plank"/>
                     <TextView
                         android:layout_margin="12dp"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="Lie on the floor with your toes and forearms on the ground. Keep your body stright and hold this position as long as you can. This exercise strengthens the abdomen, back and shoulders."
                         android:layout_below="@+id/img10"
                         android:layout_width="match_parent"
@@ -489,6 +530,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="11/14 : Crose Arms Crunches "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -504,6 +547,8 @@
                         android:layout_margin="12dp"
                         android:text="Lie down and bend your knees with your feet flat on the floor, Cross your arms in front of your chest. Then lift your head and shoulders up to make a 30 degree angle with ground. It primarily work on the rectus abdominal muscle and obliques."
                         android:layout_below="@+id/img11"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
@@ -531,6 +576,8 @@
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="12/14 : Mountain Climber "
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
@@ -548,6 +595,8 @@
                         android:text="Start in the push-up position. Bend your right knee towards your chest and keep your left leg stright, then quickly switch from one leg to other. This exercise work on multipule muscle groups."
                         android:layout_below="@+id/img12"
                         android:layout_width="match_parent"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -575,6 +624,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="13/14 : Bridge "
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"/>
@@ -590,6 +641,8 @@
                         android:layout_margin="12dp"
                         android:text="Lie on the floor , bend your legs . Then lift your hips off the floor. Keep doing it, this exercise works on your abdomen and hips."
                         android:layout_below="@+id/img13"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
@@ -617,6 +670,8 @@
                         android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:text="14/14 : Bicycle Crunches "
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
@@ -634,6 +689,8 @@
                         android:text="Lie on the floor with your hands behind your ears. Raise your knees and close your right elbow toward your left knee, then clode your left elbow toward your right knee. Repeat the exercise."
                         android:layout_below="@+id/img14"
                         android:layout_width="match_parent"
+                        android:textColor="@color/backgroundBlack"
+                        android:fontFamily="@font/poppins"
                         android:layout_height="wrap_content" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>

@@ -5,7 +5,7 @@
     android:background="#ffffff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.github.hashim.workoutTrainer.AbsWorkout.AbsExerciseActivity">
+    tools:context="io.github.taimoor.workoutTrainer.AbsWorkout.AbsExerciseActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/absToolbar"
         android:layout_width="match_parent"

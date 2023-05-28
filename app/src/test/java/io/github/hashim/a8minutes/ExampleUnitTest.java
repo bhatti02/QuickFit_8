@@ -1,4 +1,4 @@
-package io.github.hashim.workoutTrainer;
+package io.github.taimoor.workoutTrainer;
 
 import org.junit.Test;
 

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fyp8min.iml" filepath="$PROJECT_DIR$/.idea/modules/fyp8min.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fyp8min.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fyp8min.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/8Minute.iml" filepath="$PROJECT_DIR$/.idea/modules/8Minute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/8Minute.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/8Minute.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/8Minute.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/8Minute.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/8Minute.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/8Minute.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/8Minute.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/8Minute.app.unitTest.iml" />
     </modules>
   </component>
 </project>

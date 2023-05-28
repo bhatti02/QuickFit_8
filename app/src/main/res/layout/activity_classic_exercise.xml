@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:keepScreenOn="true"
     android:background="#ffffff"
-    tools:context="io.github.hashim.workoutTrainer.ClassicWorkout.ClassicExerciseActivity">
+    tools:context="io.github.taimoor.workoutTrainer.ClassicWorkout.ClassicExerciseActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/classicToolbar"
         android:layout_width="match_parent"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="io.github.hashim.workoutTrainer">
+    package="io.github.taimoor.workoutTrainer">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,8 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BMIActivity"></activity>
-        <activity android:name=".Activities.LoginActivity"></activity>
+        <activity android:name=".BMI.BMI_activity"></activity>
+        <activity android:name=".BMI.BMIMainActivity" />
+        <activity android:name=".Activities.LoginActivity" />
         <activity
             android:name=".Activities.SplashActivity"
             android:screenOrientation="portrait">
@@ -78,9 +79,6 @@
             android:name=".Activities.AboutUsActivity"
             android:screenOrientation="portrait" />
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2778443240863250~4466884855" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

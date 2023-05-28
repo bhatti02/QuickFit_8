@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context="io.github.hashim.workoutTrainer.ClassicWorkout.ClassicInstructionsActivity">
+    android:background="#000000"
+    tools:context="io.github.taimoor.workoutTrainer.ClassicWorkout.ClassicInstructionsActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/classicInstructionToolbar"
@@ -21,8 +21,10 @@
         android:layout_below="@+id/classicInstructionToolbar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
+
         android:text="Classic"
-        android:textColor="#ff8c00"
+        android:fontFamily="@font/poppins"
+        android:textColor="#ffffff"
         android:textSize="22sp"
         android:textStyle="bold" />
 <ScrollView
@@ -30,7 +32,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:background="#ffffff"
+        android:background="#000000"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
        >
@@ -58,6 +60,8 @@
                     android:layout_height="wrap_content"
                     android:text="1/13 : Jumming Jacks "
                     android:textStyle="bold"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
 
@@ -73,6 +77,8 @@
                     android:layout_below="@+id/img1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="Start with your feet and your arms by your sides,then jump up with your feet apart and your hands oveerhead. Return to the start position then do the next rep. This exercise provides a full body workout. "/>
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -100,6 +106,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2/13 : Wall Sit "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -114,6 +123,9 @@
                 <TextView
                     android:layout_margin="12dp"
                     android:layout_below="@+id/img2"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Start with your back against the wall, then slide down until your knees are at a 90 degree angle. Keep your back against the wall with your hands and arms away from legs. Hold the position.  The exercise is to strengthen the quadriceps muscles."/>
@@ -144,6 +156,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="3/13 : Push up's "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -159,6 +174,9 @@
                     android:layout_margin="12dp"
                     android:text="Lay prone on the ground with arms supporting your body.Keep your body stright while raising and lowering your body with your arms. This exercise works the chest, sholders, triceps, back and leg."
                     android:layout_below="@+id/img3"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </RelativeLayout>
@@ -188,6 +206,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4/13 : Abdominal Crunches "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -201,6 +222,9 @@
                     android:src="@drawable/abdominalescrunch"/>
                 <TextView
                     android:layout_margin="12dp"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="Lie on your back with your knees bent and your arms stretched forward. Then lift your upper body off the floor. Hold for a few seconds and slowly return. It primarily works the recyus abdominis muscle and the obliques."
                     android:layout_below="@+id/img4"
                     android:layout_width="match_parent"
@@ -231,6 +255,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="5/13 : Step up (On chair) "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -244,6 +271,9 @@
                     android:src="@drawable/stepup"/>
                 <TextView
                     android:layout_margin="12dp"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="Stand in front of a chair. Then step up on the chair and step back down. The exercise works to strengthen the leg and buttocks."
                     android:layout_below="@+id/img5"
                     android:layout_width="match_parent"
@@ -273,6 +303,9 @@
                     android:textSize="15sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="6/13 : Squats "
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
@@ -287,6 +320,9 @@
                     android:src="@drawable/squats"/>
                 <TextView
                     android:layout_margin="12dp"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="Stand with your feet shoulder width apart and your arms stretched forward, then lower your body until your thighs are parallel with the floor. Your knees should be extended in the same direction as your toes. Return to the start position and do the next rep. This works the thighs, hips buttocks, quads, hamstrings and lower body."
                     android:layout_below="@+id/img6"
                     android:layout_width="match_parent"
@@ -317,6 +353,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="7/13 : Triceps Dips "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -332,6 +371,9 @@
                     android:layout_margin="12dp"
                     android:text="For the start position, sit on the chair. Then move your hip off the chair with your hands holding the edge of the chair. Slowly bend and stretch your arms to make your body go up and down. This is a great exercise for the triceps."
                     android:layout_below="@+id/img7"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </RelativeLayout>
@@ -360,6 +402,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="8/13 : Plank "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -375,6 +420,9 @@
                     android:layout_margin="12dp"
                     android:text="Lie on the floor with your toes and forearms on the ground. Keep your body stright and hold this position as long as you can. This exercise strengthens the abdomen, back and shoulders."
                     android:layout_below="@+id/img8"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </RelativeLayout>
@@ -403,6 +451,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="9/13 : High Stepping "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -418,6 +469,9 @@
                     android:layout_margin="12dp"
                     android:text="Run in place while pulling your knees as high as possible with each step. keep your upper body upright during this exercise."
                     android:layout_below="@+id/img9"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </RelativeLayout>
@@ -446,6 +500,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="10/13 : Lunges "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -459,6 +516,9 @@
                     android:src="@drawable/lunge"/>
                 <TextView
                     android:layout_margin="12dp"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="Stand with your feet shoulder width apart and your hands on your hips. Take a step forward with your right leg and lower your body until your rigth thigh is parallel with the floor. Then return and switch to the other leg. this exercise strengthens the quadriceps, gluteus maximus and hamstrings."
                     android:layout_below="@+id/img10"
                     android:layout_width="match_parent"
@@ -488,6 +548,9 @@
                     android:textSize="15sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="11/13 : Push up's with Rotation "
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
@@ -502,6 +565,9 @@
                     android:src="@drawable/pushuprotaion"/>
                 <TextView
                     android:layout_margin="12dp"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="Start in the push-up position. THen go down for a push-up and as you come up, rotate your body and extend your right arm upwards. Repeat the exercise with the other arm. It's a great exercise for the chest , shoulders, arms and core."
                     android:layout_below="@+id/img11"
                     android:layout_width="match_parent"
@@ -532,6 +598,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="12/13 : Side Plank Right "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"/>
@@ -545,6 +614,9 @@
                     android:src="@drawable/sideplankright"/>
                 <TextView
                     android:layout_margin="12dp"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:text="Lie on your right side with your forearm supporting your body. Hold your body in a stringth line. This exercise targets the abdominal muscles and obliques."
                     android:layout_below="@+id/img12"
                     android:layout_width="match_parent"
@@ -573,6 +645,9 @@
                     android:id="@+id/title13"
                     android:textSize="15sp"
                     android:layout_width="wrap_content"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_height="wrap_content"
                     android:text="13/13 : Side Plank Left "
                     android:textStyle="bold"
@@ -587,6 +662,9 @@
                     android:layout_centerHorizontal="true"
                     android:src="@drawable/sideplank"/>
                 <TextView
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
                     android:layout_margin="12dp"
                     android:text="Lie on your left side with your forearm supporting your body. Hold your body in a stringth line. This exercise targets the abdominal muscles and obliques."
                     android:layout_below="@+id/img13"

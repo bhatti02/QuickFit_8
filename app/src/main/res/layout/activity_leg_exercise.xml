@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="#ffffff"
     android:layout_height="match_parent"
-    tools:context="io.github.hashim.workoutTrainer.LegWorkout.LegExerciseActivity">
+    tools:context="io.github.taimoor.workoutTrainer.LegWorkout.LegExerciseActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/legToolbar"
         android:layout_width="match_parent"
