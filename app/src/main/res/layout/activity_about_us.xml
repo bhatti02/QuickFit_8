@@ -20,25 +20,15 @@
         android:layout_height="180dp"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logooooooooo" />
-
-    <ImageView
-        android:id="@+id/textView"
-        android:layout_width="320dp"
-        android:layout_height="100dp"
-        android:layout_below="@+id/logo"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/mint_white_trans"
-        android:textColor="#ff8c00"
-        android:textSize="30sp" />
+        android:src="@drawable/intelligentlogo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppins_light"
-        android:text="Version : 2.0.0"
+        android:text="Version : 1.0.0"
         android:textColor="@color/white"
         android:id="@+id/textView2" />
 
@@ -54,7 +44,7 @@
         android:text="Developed by :" />
 
     <TextView
-        android:id="@+id/tvtaimoor"
+        android:id="@+id/tvbilal"
         android:layout_marginTop="12dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,7 +52,17 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/white"
         android:fontFamily="@font/poppins_light"
-        android:text="Taimoor Bhatti" />
+        android:text="Muhammad Bilal" />
+    <TextView
+        android:id="@+id/tvrida"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvbilal"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_light"
+        android:text="Rida Irfan" />
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"

@@ -1,1 +1,1 @@
-8 minutes
+Intelligent Workout Trainer
