@@ -324,9 +324,9 @@ public class ClassicExerciseActivity extends AppCompatActivity implements TextTo
 
     public void AlertDialogCreate(){
         new AlertDialog.Builder(ClassicExerciseActivity.this)
-                .setIcon(R.mipmap.ic_launcher)
-                .setTitle("8 MINUTES")
-                .setMessage("Are you sure Exit 8 MINUTES Workout ? ")
+                .setIcon(R.mipmap.new_logo)
+                .setTitle("Intelligent Workout Trainer")
+                .setMessage("Are you sure Exit Intelligent Workout Trainer? ")
                 .setPositiveButton("OK", null)
                 .setNegativeButton("Cancel", null)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener()

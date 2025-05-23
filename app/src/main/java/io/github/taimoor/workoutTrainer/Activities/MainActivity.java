@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         androidx.appcompat.widget.Toolbar toolbar =findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setTitle("8 MINUTES");
+        getSupportActionBar().setTitle("Intelligent Workout Trainer");
 
         toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
 

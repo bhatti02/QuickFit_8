@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/classicInstructionToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ff8c00"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/classicInstructionToolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+
+        android:text="Obese Plan"
+        android:fontFamily="@font/poppins"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+<ScrollView
+    android:layout_below="@+id/heading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/13 : Jumming Jacks "
+                    android:textStyle="bold"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title1"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jumpingjacks"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_below="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Start with your feet and your arms by your sides,then jump up with your feet apart and your hands oveerhead. Return to the start position then do the next rep. This exercise provides a full body workout. "/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe2"
+            android:layout_below="@+id/exe1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2/13 : Wall Sit "
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title2"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/wallsit1"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_below="@+id/img2"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start with your back against the wall, then slide down until your knees are at a 90 degree angle. Keep your back against the wall with your hands and arms away from legs. Hold the position.  The exercise is to strengthen the quadriceps muscles."/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe3"
+            android:layout_below="@+id/exe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="3/10 : Jumming Squats "
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title3"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/jumping_squats"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Start in the sqaut position, then jump up using your abdominal muscles for strength. This exercise works your abdomen."
+                    android:layout_below="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe4"
+            android:layout_below="@+id/exe3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:layout_height="wrap_content"
+                    android:text="4/10 : Reverse Crunches "
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title4"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/reverse_crunches"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Lie on the back with your knees up at a 90 degree angle and hands behind your head. Lift your upper body and thighs, and then stretch out. Repeat this exercise."
+                    android:layout_below="@+id/img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe5"
+            android:layout_below="@+id/exe4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:textSize="15sp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5/10 : Russian Twist "
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title5"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/russiantwist"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Sit on the floor with your knees bent, feet lifted a little bit and back tilted backwards, Then hold your hands together and twist from side to side ."
+                    android:layout_below="@+id/img5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe6"
+            android:layout_below="@+id/exe5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title6"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6/10 : Bird Dog "
+                    android:textStyle="bold"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title6"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/bird_dog"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Start with your knees under your butt and hands under your shoulders. Then stretch your right leg and left arm at same time. Hold for five seconds, then go back and repeat with the other side."
+                    android:layout_below="@+id/img6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe7"
+            android:layout_below="@+id/exe6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title7"
+                    android:textSize="15sp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7/10 : Burpees "
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img7"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title7"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/burpees"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Stand with your feet shoulder width apart, then put your hands on the ground and kick your feet backward. Do quick push-up and jump up."
+                    android:layout_below="@+id/img7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe8"
+            android:layout_below="@+id/exe7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title8"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8/10 : Plank "
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img8"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title8"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/plank"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Lie on the floor with your toes and forearms on the ground. Keep your body stright and hold this position as long as you can. This exercise strengthens the abdomen, back and shoulders."
+                    android:layout_below="@+id/img8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe9"
+            android:layout_below="@+id/exe8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title9"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="9/10 : Side Arm Raise "
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img9"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title9"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/arm_circles"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:layout_below="@+id/img9"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start with your feet and your shoulder width apart. Raise your arms to sides at shoulders. Repeat this exercise. "/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/exe10"
+            android:layout_below="@+id/exe9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:elevation="10dp"
+            android:padding="0dp"
+            app:cardCornerRadius="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title10"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="10/10 : Squats "
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img10"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/title10"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/squats"/>
+                <TextView
+                    android:layout_margin="12dp"
+                    android:textColor="@color/backgroundBlack"
+                    android:fontFamily="@font/poppins"
+                    android:text="Stand with your feet shoulder width apart and your arms stretched forward, then lower your body until your thighs are parallel with the floor. Your knees should be extended in the same direction as your toes. Return to the start position and do the next rep. This works the thighs, hips buttocks, quads, hamstrings and lower body."
+                    android:layout_below="@+id/img10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>

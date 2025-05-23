@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Activities.WorkoutPlanActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- Age Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age" />
+
+            <EditText
+                android:id="@+id/ageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:hint="Enter Your Age (i.e. 25)"
+                android:singleLine="true"
+                android:inputType="number"/>
+
+            <!-- Weight Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weight" />
+
+            <EditText
+                android:id="@+id/weightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:hint="Enter Your Weight (i.e. 60 kg)"
+                android:singleLine="true"
+                android:inputType="numberDecimal"/>
+
+            <!-- Height Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Height" />
+
+            <EditText
+                android:id="@+id/heightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:hint="Enter Your Height (i.e. 5.5)"
+                android:singleLine="true"
+                android:inputType="numberDecimal"/>
+
+            <!-- Gender Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender" />
+
+            <EditText
+                android:id="@+id/genderSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:hint="Your Gender (Male or Female)"
+                android:singleLine="true"
+                android:inputType="text"/>
+
+            <!-- Primary Fitness/Health Goals Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Primary Fitness/Health Goals" />
+
+            <EditText
+                android:id="@+id/goalsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:paddingHorizontal="20dp"
+                android:hint="Your Primary Fitness/Health Goals"
+                android:singleLine="true"/>
+
+            <!-- Days in Gym Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Days in Gym"/>
+
+            <EditText
+                android:id="@+id/daysEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:paddingHorizontal="20dp"
+                android:hint="How many days you can go to gym? "
+                android:singleLine="true"/>
+
+            <!-- Meals Per Day Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meals Per Day" />
+
+            <EditText
+                android:id="@+id/mealsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:paddingHorizontal="20dp"
+                android:hint="How many meals you can have per day? "
+                android:singleLine="true"/>
+
+            <!-- Snacks Per Day Field -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snacks Per Day" />
+
+            <EditText
+                android:id="@+id/snacksEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:paddingHorizontal="20dp"
+                android:hint="How many snacks you can have per day?"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/btn_getPlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Get Your Customized Plan"
+                android:textColor="@android:color/background_light" />
+
+
+            <TextView
+                android:id="@+id/tvPlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
